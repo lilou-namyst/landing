@@ -1,0 +1,166 @@
+/* style.css */
+body {
+  font-family: Raleway;
+  color: #404042;
+  font-size: 18px;
+  margin: 5px 5px 20px 5px;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: League Gothic;
+}
+
+h2 {
+  color: rgb(44,61,84)
+}  
+
+h2 {
+  font-size: 30px;
+}  
+
+a {
+  color: whitesmoke;
+  font-family: League Gothic;
+  font-size: 25px;
+  text-decoration: none;
+  transition: .3s;
+  background-color: rgba(123,97,255,255);
+  padding: 10px 20px;
+}
+
+a:hover {
+  color: rgb(44,61,84);
+  padding: 12px 24px;
+}
+/* Write some CSS below */
+
+body {
+  font-family: Raleway;
+  margin: 0;
+}
+
+h1 {
+  fontcolor: #404042;
+  font-family: League Gothic;
+}
+
+h2 {
+  color: rgb(44,61,84)
+  font-family: League Gothic;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/background1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 45px;
+  margin: 0;
+}
+
+.banner p {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.button-blue {
+  background-color: #1A48E3;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: #0D1EC6;
+  color: white;
+}
+
+.card-white {
+  background: rgba(217,217,217,255);
+  box-shadow: 0 0 10px rgb(44,61,84);
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  padding: 24px;
+}
+
+.card-white p {
+  color: rgb(44,61,84);
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+
+.footer {
+  background: rgb(44,61,84);
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+  font-size: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin-bottom: 30px;
+}
+
+/* Cards media queries */
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+/* Container media queries */
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
